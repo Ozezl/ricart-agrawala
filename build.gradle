@@ -1,0 +1,20 @@
+plugins {
+    id 'java'
+    id "application"
+}
+application{
+ mainClassName = "pt.ipb.ricart_agrawala.Ricart_Agrawala"
+}
+group 'pr4'
+version '1.0-SNAPSHOT'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile group: 'org.jgroups', name: 'jgroups', version: '4.0.0.Final'
+
+}
